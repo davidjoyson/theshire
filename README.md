@@ -4,6 +4,8 @@ Info page for The Shire, a tea estate cottage stay in Wayanad, Kerala — linkin
 
 **Live site:** https://theshire.in
 
+alternate https://davidjoyson.github.io/theshire/
+
 ## What's in this repo
 
 - `index.html` — the full page (single file, HTML + CSS, no build step)
