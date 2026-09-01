@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Shire &mdash; a quiet countryside stay for four guests." />
+    <title>The Shire &mdash; Country stay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Playfair+Display:ital,wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="The Shire home"><img class="brand-logo" src="shire_pics/logo_cropped.png" alt="The Shire" /></a>
+      <nav aria-label="Main navigation"><a href="#stay">The Stay</a><a href="#details">Details</a><a href="#location">Location</a></nav>
+      <!-- <a class="header-book" href="#book">Check availability <span>&#8599;</span></a> -->
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="The Shire exterior">
+        <div class="hero-image"><img src="shire_pics/IMG-20200614-WA0002.jpg" alt="The Shire exterior" /></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow light">A quiet stay admist the tea estate</p>
+          <h1>Find your<br /><em>quiet place.</em></h1>
+          <p class="hero-intro">A lovely cottage for unhurried mornings, long walks and evenings beside the fire.</p>
+          <a class="button button-light" href="#book">Contact now (+91 97398 88838) <span>&rarr;</span></a>
+        </div>
+        <p class="hero-caption">01 &mdash; The Shire, Wayanad</p>
+        <div class="scroll-hint"><span></span> Scroll to explore</div>
+      </section>
+
+      <section class="intro section" id="stay">
+        <div class="intro-heading"><p class="eyebrow">Welcome to The Shire</p><h2>Made for switching <em>off.</em></h2></div>
+        <div class="intro-copy"><p>Set on the edge of a tiny Cotswold village, The Shire is a place to settle into the rhythm of the countryside. Come for the honey-stone lanes and open skies; stay for the extraordinary quiet.</p><a class="text-link" href="#details">Discover the house <span>&rarr;</span></a></div>
+      </section>
+
+      <section class="gallery" aria-label="A glimpse inside The Shire">
+        <figure class="gallery-large"><img src="shire_pics/IMG_20200704_203310.jpg" alt="A room at The Shire" /><figcaption>Rooms to linger in</figcaption></figure>
+        <figure class="gallery-small top"><img src="shire_pics/IMG_20200704_200958.jpg" alt="A detail of The Shire" /></figure>
+        <figure class="gallery-small bottom"><img src="shire_pics/IMG_20200704_173402.jpg" alt="The Shire holiday home" /></figure>
+        <div class="gallery-number">02</div>
+      </section>
+
+      <section class="amenities section" id="details">
+        <div><p class="eyebrow">Everything you need</p><h2>Comfort, without<br />the <em>fuss.</em></h2></div>
+        <ul>
+          <li><span>01</span><strong>3 bedrooms</strong><p>Three rooms, made with cloud soft linen.</p></li>
+          <li><span>02</span><strong>Campfire</strong><p>A generous supply of logs, and a book shelf close at hand.</p></li>
+          <li><span>03</span><strong>Garden &amp; views</strong><p>A private wildflower garden that opens onto rolling hills.</p></li>
+          <li><span>04</span><strong>Well-equipped kitchen</strong><p>For market suppers, morning coffee and everything between.</p></li>
+        </ul>
+      </section>
+
+      <section class="quote"><p>&ldquo;Great for an immersive experience of life in Wayanad.&rdquo;</p><span>&mdash; A recent guest</span></section>
+
+      <section class="location section" id="location">
+        <div class="location-image"><img src="shire_pics/IMG-20200614-WA0002.jpg" alt="The surrounding countryside" /></div>
+        <div class="location-copy"><p class="eyebrow">Good things nearby</p><h2>The country at<br />your <em>doorstep.</em></h2><br/><p>Step outside and hike the tea estate or go to the local markets.</p><a class="text-link" href="#book">Explore the area <span>&rarr;</span></a></div>
+      </section>
+
+      <!-- <section class="booking" id="book">
+        <div class="booking-inner"><p class="eyebrow light">Make yourself at home</p><h2>Ready when<br />you <em>are.</em></h2><p>From &pound;220 per night &middot; 2 night minimum</p>
+          <form class="booking-form" id="availability-form">
+            <label>Check in<input id="check-in" type="date" required /></label>
+            <label>Check out<input id="check-out" type="date" required /></label>
+            <label>Guests<select id="guests"><option>2 guests</option><option>3 guests</option><option>4 guests</option></select></label>
+            <button class="button button-accent" type="submit">Check availability <span>&rarr;</span></button>
+          </form>
+          <p class="form-message" id="form-message" role="status"></p>
+        </div>
+      </section> -->
+    </main>
+    <footer><a class="brand" href="#top"><img class="brand-logo" src="shire_pics/logo_cropped.png" alt="The Shire" /></a><div class="footer-contact"><a href="https://www.google.com/maps/place/The+Shire/@11.8235945,75.7895117,12z/data=!4m10!1m2!2m1!1sthe+shire+wayanad!3m6!1s0x3ba5dbcb572e7bd3:0x80363ed143ffa157!8m2!3d11.8235945!4d75.941947!15sChF0aGUgc2hpcmUgd2F5YW5hZFoTIhF0aGUgc2hpcmUgd2F5YW5hZJIBBWhvdGVsmgFEQ2k5RFFVbFJRVU52WkVOb2RIbGpSamx2VDJ4V2JGZHFhSHBoU0U1d1RucFNhR0ZGZEVabFdHaERXakJzTW1WVlJSQULgAQD6AQUI8wgQNQ!16s%2Fg%2F11lfpv03xt?entry=ttu&g_ep=EgoyMDI2MDgzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">Karimani Road, Thavinhal,<br />Kerala 670644, India</a><a href="tel:+919739888838">+91 97398 88838</a></div><p></p><p>&copy; 2026 The Shire</p></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
